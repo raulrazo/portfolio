@@ -95,37 +95,12 @@ export const BentoGridItem = ({
         <div className={cn(
             titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
         )}>
-            <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10 ">
+            <div className="font-sans font-extralight text-[#c1c2d3] text-xl md:text-lg lg:text-3xl z-10 ">
                 {description}
             </div>
-            <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+            <div className="font-sans font-bold text-lg lg:text-2xl max-w-96 z-10">
                 {title}
             </div>
-
-        {id === 2 && <GlobeDemo />}
-
-        {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-                <div className="flex flex-col gap-3 lg:gap-8">
-                    {['React.js', 'Next.js', 'Typescript'].map
-                    ((item) => (
-                        <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
-                            {item}
-                        </span>
-                    ))}
-                    <span className="py-4 px-3 rounded-lg text-center bg-[#10132e] "/> 
-                </div>
-                <div className="flex flex-col gap-3 lg:gap-8">
-                    <span className="py-4 px-3 rounded-lg text-center bg-[#10132e] "/> 
-                    {['VueJS', 'AWS', 'MongoDB'].map
-                    ((item) => (
-                        <span key={item} className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]">
-                            {item}
-                        </span>
-                    ))}
-                </div>
-            </div>
-        )}
 
         {id === 6 && (
           <div className="mt-5 relative">
