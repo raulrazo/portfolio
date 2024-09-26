@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "I'm currently working with my group to build a multi-agent approach towards code and document generation.",
+      title: "I'm currently working with a group to build a multi-agent approach towards code and document generation.",
       description: "",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "w-full h-full",
@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "Want to shoot me an email?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
