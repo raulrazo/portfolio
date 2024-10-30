@@ -7,10 +7,10 @@ const RecentProjects = () => {
   return (
     <div className="py-20" id="projects">
         <h1 className="heading">
-            A small selection of {' '}
-            <span className="text-purple">recent projects</span>
+            My {' '}
+            <span className="text-blue-300">Recent Projects</span>
         </h1>
-        <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
+        <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 -mt-6">
             {projects.map(({ id, title, des, img, iconLists, link }) => (
                 <div key={id} className="sm:w-[570px] sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center w-[80vw]">
                     <PinContainer title={link} href={link}>
@@ -21,7 +21,7 @@ const RecentProjects = () => {
                             <img 
                               src={img}
                               alt={title}
-                              className="z-10 absolute bottom-0"  
+                              className="z-10 absolute"  
                             />
                         </div>
                         <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -43,8 +43,8 @@ const RecentProjects = () => {
                             </div>
 
                             <div className="flex justify-center items-center">
-                                <p className="flex lg:text-xl md:text-xs text-sm text-purple">Check Live Site</p>
-                                <FaLocationArrow className="ms-3" color="#CBACF9" />
+                                <p className="flex lg:text-xl md:text-xs text-sm text-blue-300">Check Live Site</p>
+                                <FaLocationArrow className="ms-3" color="#93c5fd" />
                             </div>
                         </div>
                     </PinContainer>
