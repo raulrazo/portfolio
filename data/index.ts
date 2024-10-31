@@ -97,7 +97,7 @@ export const navItems = [
     {
       id: 4,
       title: "Python Custom Music Player",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+      des: "A python music player with a GUI that allows users to select and play songs or playlists.",
       img: "/python-music-player.webp",
       iconLists: ["/python-svgrepo-com.svg",],
       link: "https://github.com/raulrazo/python-music-player",
